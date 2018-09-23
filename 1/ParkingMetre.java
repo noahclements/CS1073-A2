@@ -78,7 +78,7 @@ public class ParkingMetre {
 	@param time The time parked at the metre (in minutes).
 	*/
 	public void park(int timeInput) {
-		time = timeInput;
+		time = timeInput;	// reducing the amount of time left on the metre??????
 		System.out.println("You are parked here for: " + timeInput + " minutes");
 	}
 	
