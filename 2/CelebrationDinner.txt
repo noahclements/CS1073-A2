@@ -1,0 +1,20 @@
+Mike Smith
+Seat Number: 3
+Total amount owed: $24.7
+
+Sarah Jones
+Seat Number: 1
+Total amount owed: $15.6
+
+John Phillips
+Seat Number: 2
+Total amount owed: $21.0
+
+Jill Blair
+Seat Number: 7
+Total amount owed: $15.0
+
+Mike's tip: $4.94
+Sarah's tip: $2.184
+John's tip: $3.36
+Jill's tip: $2.4
