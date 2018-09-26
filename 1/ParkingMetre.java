@@ -18,7 +18,7 @@ public class ParkingMetre {
 	/**
 	The amount of time on the parking metre (minutes).
 	*/
-	private int time;
+	private double timeOnMetre;
 	
 
 	/**
@@ -31,6 +31,7 @@ public class ParkingMetre {
 	public ParkingMetre(String locationIn, double parkingRateIn) {
 		location = locationIn;
 		parkingRate = parkingRateIn;
+		timeOnMetre = 0;
 
 	}
 	
@@ -41,7 +42,7 @@ public class ParkingMetre {
 	*/
 	public String getMetreLocation() {
 		return location;
-}	
+	}	
 	
 	
 
@@ -62,8 +63,8 @@ public class ParkingMetre {
 	This method retrieves the amount of time left on the metre.
 	@return The amount of time on the metre.
 	*/
-	public int timeLeft() {
-		return time;
+	public double timeLeft() {
+		return timeOnMetre;
 	}
 	
 
@@ -77,25 +78,17 @@ public class ParkingMetre {
 	you do NOT need to include a check for this in your solution).
 	@param time The time parked at the metre (in minutes).
 	*/
-	public void park(int timeInput) {
-		time = timeInput;	// reducing the amount of time left on the metre??????
-		System.out.println("You are parked here for: " + timeInput + " minutes");
+	public void setTime(double time) {
+		timeOnMetre = timeOnMetre - time;	
 	}
 	
-	
-	
-
 
 	/**
 	This method adds money to the metre.
 	@param moneyAdded Amount of money added to the metre.
 	*/
-	public void setMoney(double moneyAdded) {
-		System.out.println("You have added: $" + moneyAdded + " to the metre located at: " + location);
+	public void addMoney(double moneyAdded) {
+		timeOnMetre = timeOnMetre + (moneyAdded / parkingRate);
 	}
-	
-	
-
-
 
 } //end ParkingMetre

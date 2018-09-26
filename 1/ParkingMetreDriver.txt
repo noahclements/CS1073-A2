@@ -1,0 +1,7 @@
+You are parked at: Queen Street
+The parking rate for this location is: $0.02/min
+The time left on the metre is: 12.5 minutes
+
+You are parked at: Union Street
+The parking rate for this location is: $0.03/min
+The time left on the metre is: 40.0 minutes

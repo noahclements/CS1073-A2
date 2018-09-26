@@ -44,7 +44,7 @@ public class CelebrationDinner {
 		System.out.println("Mike's tip: $" + mikesTab.getTip(0.20));
 		System.out.println("Sarah's tip: $" + sarahsTab.getTip(0.14));
 		System.out.println("John's tip: $" + johnsTab.getTip(0.16));
-		System.out.println("Jill's tip: $" + jillsTab.getTip(0.14));
+		System.out.println("Jill's tip: $" + jillsTab.getTip(0.16));
 
 	}
 }
